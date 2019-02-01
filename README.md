@@ -42,9 +42,9 @@ multiple persons working in the same scene.
 *   [`.gitattributes`](https://raw.githubusercontent.com/JoaoAlexandreDuarte/Unity-Mergetool/master/.gitattributes) -
     Indicates attributes of the project, and which files to save in Git LFS mode (images, sounds, textures, etc).
 
-1. Go to the project folder and make sure you can see the hidden files and folders, go to the 
+4. Go to the project folder and make sure you can see the hidden files and folders, go to the 
    **.git folder** and open the **config** file with a text editor of your choice.
-2. **Add the following lines** to the file and save it: **_(You will probably need to replace the_**
+5. **Add the following lines** to the file and save it: **_(You will probably need to replace the_**
    **_path to the merge tool in line 5)_**
    ```
    [merge]
