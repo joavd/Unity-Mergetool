@@ -35,9 +35,16 @@ multiple persons working in the same scene.
 
 1. Initialize repository `$ git init`
 2. Initialize Git LFS `$ git lfs install`
-3. Go to the project folder and make sure you can see the hidden files and folders, go to the 
+3. _(Optional)_ Add these files to the root folder:
+*   [`.gitignore`](https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore) -
+    Indicates files to ignore, that won't be saved to the repository
+  
+*   [`.gitattributes`](https://raw.githubusercontent.com/JoaoAlexandreDuarte/Unity-Mergetool/master/.gitattributes) -
+    Indicates attributes of the project, and which files to save in Git LFS mode (images, sounds, textures, etc).
+
+1. Go to the project folder and make sure you can see the hidden files and folders, go to the 
    **.git folder** and open the **config** file with a text editor of your choice.
-4. **Add the following lines** to the file and save it: **_(You will probably need to replace the_**
+2. **Add the following lines** to the file and save it: **_(You will probably need to replace the_**
    **_path to the merge tool in line 5)_**
    ```
    [merge]
